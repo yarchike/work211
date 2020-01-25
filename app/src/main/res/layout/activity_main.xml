@@ -7,35 +7,36 @@
     android:orientation="vertical"
     android:padding="50dp"
     tools:context=".MainActivity">
+
     <EditText
         android:id="@+id/inputMoney"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Ввод денег"
-        android:inputType="number"/>
+        android:hint="@string/input_money"
+        android:inputType="number" />
     <EditText
         android:id="@+id/inputInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Информация об оплате" />
+        android:hint="@string/payment_information" />
     <Button
         android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK" />
+        android:text="@string/ok_button" />
     <CheckBox
         android:id="@+id/bankCardChkBx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="С банковской карты"/>
+        android:text="@string/bank_check"/>
     <CheckBox
         android:id="@+id/mobilePhoneChkBx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="С мобильного телефона"/>
+        android:text="@string/mobile_check"/>
     <CheckBox
         android:id="@+id/cashAddressChkBx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Наличными по адресу"/>
+        android:text="@string/nal_check"/>
 </LinearLayout>
