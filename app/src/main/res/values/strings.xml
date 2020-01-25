@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Оплата</string>
+    <string name="mBankCardChkBx_name">Оплата c банковской карты произведена</string>
+    <string name="mMobilePhoneChkBx_name">Оплата с мобильного телефона произведена</string>
+    <string name="mCashAddressChkBx_name">Оплата по адресу произведена</string>
+</resources>
